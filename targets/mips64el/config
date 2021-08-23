@@ -1,0 +1,5 @@
+KERNEL_ARCH = mips
+KERNEL_DEFCONFIG = malta_defconfig
+KERNEL_IMAGE = vmlinux
+QEMU_FLAGS = -cpu MIPS64R2-generic
+TOOLCHAIN = mips64el-linux-muslabi64

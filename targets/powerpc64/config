@@ -1,0 +1,6 @@
+KERNEL_ARCH = powerpc
+KERNEL_DEFCONFIG = corenet64_smp_defconfig
+KERNEL_IMAGE = vmlinux
+QEMU_ARCH = ppc64
+QEMU_FLAGS = -machine ppce500 -cpu e5500 -m 256M
+QEMU_APPEND = root=/dev/ram

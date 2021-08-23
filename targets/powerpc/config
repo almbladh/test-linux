@@ -1,0 +1,5 @@
+KERNEL_DEFCONFIG = corenet32_smp_defconfig
+KERNEL_IMAGE = vmlinux
+QEMU_ARCH = ppc
+QEMU_FLAGS = -machine ppce500 -cpu e500mc
+QEMU_APPEND = root=/dev/ram

@@ -1,0 +1,5 @@
+KERNEL_DEFCONFIG = defconfig
+KERNEL_IMAGE = arch/arm64/boot/Image
+KERNEL_ARCH = arm64
+QEMU_FLAGS = -machine virt -cpu cortex-a53 -m 1G
+QEMU_TTY = ttyAMA0

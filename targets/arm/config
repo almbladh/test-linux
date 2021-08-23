@@ -1,0 +1,6 @@
+KERNEL_DEFCONFIG = versatile_defconfig
+KERNEL_IMAGE = arch/arm/boot/zImage
+QEMU_FLAGS = -machine versatilepb
+QEMU_DTB = arch/arm/boot/dts/versatile-pb.dtb
+QEMU_TTY = ttyAMA0
+TOOLCHAIN = arm-linux-musleabi

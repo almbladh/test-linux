@@ -1,0 +1,2 @@
+KERNEL_DEFCONFIG = malta_defconfig
+KERNEL_IMAGE = vmlinux

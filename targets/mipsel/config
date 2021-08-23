@@ -1,0 +1,3 @@
+KERNEL_ARCH = mips
+KERNEL_DEFCONFIG = malta_defconfig
+KERNEL_IMAGE = vmlinux

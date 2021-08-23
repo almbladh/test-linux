@@ -1,0 +1,6 @@
+KERNEL_DEFCONFIG = defconfig
+KERNEL_ARCH = s390
+KERNEL_IMAGE = arch/s390/boot/compressed/vmlinux
+QEMU_FLAGS = -m 2G
+QEMU_APPEND = root=/dev/ram
+TOOLCHAIN = s390x-linux-gnu

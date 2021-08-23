@@ -1,0 +1,4 @@
+KERNEL_ARCH = x86
+KERNEL_DEFCONFIG = x86_64_defconfig
+KERNEL_IMAGE = arch/x86_64/boot/bzImage
+TOOLCHAIN = x86_64-linux-gnu

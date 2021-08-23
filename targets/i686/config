@@ -1,0 +1,5 @@
+KERNEL_ARCH = x86
+KERNEL_DEFCONFIG = i386_defconfig
+KERNEL_IMAGE = arch/i386/boot/bzImage
+QEMU_ARCH = i386
+TOOLCHAIN = i686-linux-gnu

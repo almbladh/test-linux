@@ -1,0 +1,4 @@
+KERNEL_DEFCONFIG = sparc64_defconfig
+KERNEL_ARCH = sparc
+KERNEL_IMAGE = vmlinux
+TOOLCHAIN = sparc64-linux-gnu
