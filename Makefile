@@ -163,7 +163,7 @@ $(SRCDIR)/$(KERNEL_DIR)/Makefile:
 	    ln -nfs ../$(KERNEL_SRC) $(SRCDIR)/$(KERNEL_DIR) || exit 1; \
 	fi
 else
-ifneq ($(KERNEL_VER,))
+ifneq ($(KERNEL_VER),)
 $(SRCDIR)/$(KERNEL_DIR)/Makefile: dl/$(KERNEL_PKG)
 	mkdir -p $(SRCDIR)
 	tar xf $< -C $(SRCDIR)
